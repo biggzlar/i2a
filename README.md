@@ -1,7 +1,7 @@
 # Imagination-augmented agents for deep reinforcement learning
 Credit: [yilundu/imagination_augmented_agents](https://github.com/yilundu/imagination_augmented_agents)
 
-Continuation of the credited project. 
+Continuation of the credited project. Imagination Augmented Agents for Deep Reinforcement Learning, based on the [paper](https://arxiv.org/abs/1707.06203) by Deepmind. This version is implemented with A2C/PPO, instead of A3C.
 
 ## Setup
 ### Prerequisites
