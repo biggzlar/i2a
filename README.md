@@ -1,12 +1,17 @@
 # Imagination-augmented agents for deep reinforcement learning
 Credit: [yilundu/imagination_augmented_agents](https://github.com/yilundu/imagination_augmented_agents)
 
-Continuation of the credited project. Imagination Augmented Agents for Deep Reinforcement Learning, based on the [paper](https://arxiv.org/abs/1707.06203) by Deepmind. This version is implemented with A2C/PPO, instead of A3C.
+Continuation of the credited project, based on [Imagination Augmented Agents for Deep Reinforcement Learning](https://arxiv.org/abs/1707.06203). This version is implemented with A2C/PPO, as opposed to A3C.
 
 ## Setup
+
+Tested with Python3.6 on Ubuntu 18.04 and macOS 10.13.4.
+
 ### Prerequisites
 ```bash
     $ sudo apt-get install python-mpi4py
+
+    # you might want to use torch==0.4.0 on Ubuntu
     $ pip install torch==0.3.1 gym scikit-image baselines opencv-python
     
     # recent changes might require the following
