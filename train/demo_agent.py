@@ -61,8 +61,8 @@ if __name__ == '__main__':
 
             # Action logits
             action_logit = model.forward((state, (hx, cx), mask))[1]
-            action_probs = F.softmax(action_logit)
-            actions = action_probs.multinomial()
+            action_probs = F.softmax(action_logit, dim=1)
+            actions = action_probs.multinomial(1)
             action = actions[0, 0]
             state, reward, done, _ = env_.step(action.data[0])
                 
