@@ -4,8 +4,8 @@ Credit: [yilundu/imagination_augmented_agents](https://github.com/yilundu/imagin
 Continuation of the credited project, based on [Imagination Augmented Agents for Deep Reinforcement Learning](https://arxiv.org/abs/1707.06203). This version is implemented with A2C/PPO, as opposed to A3C.
 
 ### Contents
-[Setup](https://github.com/biggzlar/i2a#setup)
-[Training](https://github.com/biggzlar/i2a#training)
+[Setup](https://github.com/biggzlar/i2a#setup) <br>
+[Training](https://github.com/biggzlar/i2a#training) <br>
 [Running an Agent](https://github.com/biggzlar/i2a#running-an-agent)
 
 ## Setup
