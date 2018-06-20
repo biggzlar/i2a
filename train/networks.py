@@ -247,9 +247,9 @@ class I3A(nn.Module):
             else:
                 actions, _ = self.model_free(inputs)
                 # For stability, detach the gradient calculated for actions
-                actions = F.softmax(actions)
+                actions = F.softmax(actions, dim=1)
                 # print(actions.shape)
-                actions = actions.multinomial().float()
+                actions = actions.multinomial(actions.shape[0]).float()
                 actions = actions.detach()
                 action_encoding = actions.data.cpu().numpy()
 
