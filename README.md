@@ -60,7 +60,7 @@ Several steps are required to train an I2A, first we need to train the environme
 To run a trained agent, simply run the following script:
 
 ```bash
-    # example env_model: exp/env.pth ; example i2a: exp/1140-nn.pth
+    # example env_model: exp/env.pth ; example i2a: exp/epoch-1140.pth
     $ python demo_agent.py --model-path path/to/i2a --env-path path/to/env/model
 ```
 
