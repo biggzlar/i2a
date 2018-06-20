@@ -21,7 +21,7 @@ def make_env(env_id, seed, rank, eval=False):
         env = gym.make(env_id)
         env.seed(seed + rank)
         env = NoopResetEnv(env, noop_max=30)
-        env = MaxAndSkipEnv(env, skip=4)
+        env = MaxAndSkipEnv(env, skip=2)
         env = WarpFrame(env)
         # Janky Fix to Resize Environments to be 50x50
         env.width = 50
